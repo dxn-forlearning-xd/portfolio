@@ -1,12 +1,11 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import ThemeToggler from '../Helper/ThemeToggler';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import Skills from './Skills/Skills';
 import Project from './Project/Project';
-import Experience from './Expeirence/Experience';
+import Experience from './Experience/Experience';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Home = () => {
@@ -20,6 +19,7 @@ const Home = () => {
         anchorPlacement: 'top-bottom',
       });
     };
+    initAOS();
   }, []);
   return (
     <div className="overflow-hidden">

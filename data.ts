@@ -22,56 +22,66 @@ export const skillCategories = [
 
 export const projects = [
   {
-    title: 'ecomm',
-    description: 'de',
-    image: '/images/user.jpg',
-    techStack: ['next', 'type'],
-    demoUrl: 'https',
-    githubUrl: 'https',
-  },
-  {
-    title: 'ecomm',
-    description: 'de',
-    image: '/images/user.jpg',
-    techStack: ['next', 'type'],
-    demoUrl: 'https',
-    githubUrl: 'https',
+    title: 'Movies App',
+    description:
+      'A URL-driven, API-powered interactive media browsing system with cinematic UI patterns.',
+    image: '/images/movie-app.png',
+    techStack: [
+      'Next.js',
+      'TypeScript',
+      'SWR',
+      'Swiper',
+      'API integration',
+      'Tailwind',
+    ],
+    demoUrl: 'https://movie-app-lkyu.vercel.app/movies',
+    githubUrl: 'https://github.com/dxn-forlearning-xd/movie-app',
   },
 ];
 
 export const experiences = [
   {
     type: 'work',
-    title: 'juior',
-    company: 'sic',
-    period: '2025',
-    description: 'qqqq',
+    title: 'Junior Frontend Developer',
+    company: 'Science Infinity Technology Limited',
+    period: 'Sep 2025 - Jan 2026',
+    description:
+      'This role involved standard web development and layout building within an agile team. Daily work focused on working together with backend engineers for API routing, syncing with UI/UX designers to implement designs, and communicating with the mobile app team for cross-platform pages.',
   },
   {
     type: 'work',
-    title: 'juior',
-    company: 'sic',
-    period: '2025',
-    description: 'qqqq',
+    title: 'Transition period',
+    company: '',
+    period: '2022-2025',
+    description:
+      'Career transition period working in music composition and English teaching, while gradually shifting focus toward frontend development through self-learning and personal projects.',
+  },
+
+  {
+    type: 'uni',
+    title: 'MA of Arts Music Management',
+    company: 'The University of Sheffield',
+    period: '2021 - 2022',
+    description: '',
   },
   {
     type: 'uni',
-    title: 'juior',
-    company: 'sic',
-    period: '2025',
-    description: 'qqqq',
+    title: 'BA of Arts Musicology',
+    company: 'The University of Shandong',
+    period: '2017 - 2021',
+    description: '',
   },
 ];
 
 export const footerSocialLinks = [
   {
     label: 'github',
-    href: 'https://github.com/xxx',
+    href: 'https://github.com/dxn-forlearning-xd',
     icon: FaGithub,
   },
   {
     label: 'linkedin',
-    href: 'https://linkedin.com/in/xxx',
+    href: 'https://www.linkedin.com/in/xiaonan-dong-63b56b259/',
     icon: FaLinkedin,
   },
 ];

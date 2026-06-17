@@ -33,7 +33,7 @@ const ProjectCard = ({
         <h3 className="text-xl text-black dark:text-white font-semibold mb-2 group-hover:text-blue-500 transition-colors">
           {title}
         </h3>
-        <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+        <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
           {description}
         </p>
         <div className="flex flex-wrap gap-2 mb-6">
@@ -59,7 +59,7 @@ const ProjectCard = ({
           )}
           {githubUrl && (
             <Button asChild variant={'outline'} size={'sm'} className="flex-1">
-              <a href={demoUrl} target="_blank" rel="noopener noreferrer">
+              <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <FaGithub className="w-4 h-4 mr-2" />
               </a>
             </Button>
