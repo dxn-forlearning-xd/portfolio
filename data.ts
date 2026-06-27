@@ -37,6 +37,15 @@ export const projects = [
     demoUrl: 'https://movie-app-lkyu.vercel.app/movies',
     githubUrl: 'https://github.com/dxn-forlearning-xd/movie-app',
   },
+  {
+    title: 'Dashboard',
+    description:
+      'A admin dashboard mockup featuring sidebar navigation and static data visualization blocks.',
+    image: '/images/dashboard.png',
+    techStack: ['React', 'TypeScript', 'Recharts', 'Tailwind'],
+    demoUrl: 'https://dashboard-green-sigma-19.vercel.app/',
+    githubUrl: 'https://github.com/dxn-forlearning-xd/dashboard',
+  },
 ];
 
 export const experiences = [
@@ -79,9 +88,9 @@ export const footerSocialLinks = [
     href: 'https://github.com/dxn-forlearning-xd',
     icon: FaGithub,
   },
-  {
-    label: 'linkedin',
-    href: 'https://www.linkedin.com/in/xiaonan-dong-63b56b259/',
-    icon: FaLinkedin,
-  },
+  // {
+  //   label: 'linkedin',
+  //   href: 'https://www.linkedin.com/in/xiaonan-dong-63b56b259/',
+  //   icon: FaLinkedin,
+  // },
 ];

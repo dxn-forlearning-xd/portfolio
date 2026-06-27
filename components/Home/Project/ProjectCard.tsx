@@ -19,17 +19,18 @@ const ProjectCard = ({
   githubUrl,
 }: Props) => {
   return (
-    <div className="group relative bg-white dark:bg-gray-800 shadow-md rounded-2xl overflow-hidden">
+    <div className="group relative bg-white dark:bg-gray-800 shadow-md rounded-2xl overflow-hidden flex flex-col h-full">
       <div className="relative h-48 overflow-hidden">
         <Image
           src={image}
           alt={title}
           width={400}
           height={400}
-          className="w-full"
+          className="w-full h-full object-cover"
         />
       </div>
-      <div className="p-6">
+
+      <div className="p-6 flex flex-col flex-1">
         <h3 className="text-xl text-black dark:text-white font-semibold mb-2 group-hover:text-blue-500 transition-colors">
           {title}
         </h3>
@@ -37,17 +38,18 @@ const ProjectCard = ({
           {description}
         </p>
         <div className="flex flex-wrap gap-2 mb-6">
-          {techStack.map((tech) => {
-            return (
-              <span
-                key={tech}
-                className="text-xs px-3 py-1 rounded-full bg-cyan-600 text-white font-medium"
-              >
-                {tech}
-              </span>
-            );
-          })}
+          {techStack.map((tech) => (
+            <span
+              key={tech}
+              className="text-xs px-3 py-1 rounded-full bg-cyan-600 text-white"
+            >
+              {tech}
+            </span>
+          ))}
         </div>
+
+        <div className="flex-1" />
+
         <div className="flex gap-3">
           {demoUrl && (
             <Button asChild size={'sm'} className="flex-1">
